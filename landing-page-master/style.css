@@ -1,0 +1,100 @@
+#banner {
+	width: 1100px;
+	height: cover;
+	background-image: url(images/lutteur.jpg) ;
+	background-size: cover;
+	background-position: center ;
+	text-align: center;
+
+}
+
+h1 {
+	color: white;
+	text-align: center;
+	font-size: 45px;
+	padding-top: 40vh ;
+	margin: 0;
+	font-family: Chivo;
+
+}
+
+#main-subtitle {
+	color: white;
+	opacity: 0.7; 
+	font-family: Overpass ;
+	font-size: 26px;
+}
+
+#blue-button {
+	text-decoration: none;
+	color: white;
+	font-family: Overpass;
+	font-size: 20px;
+	background-color: #0D1EC6;
+
+}
+
+#blue-button: hover {
+	background-color: darkblue;
+	transition: all 0.2s ease-out;
+	padding: 25px 50px;
+}
+
+#main-subtitle {
+	font-family: Chivo;
+	color: whitesmoke;
+	opacity: 2;
+	font-weight: bold;
+	margin-left: 20%;
+}
+
+#container {
+	border: solid;
+	display: flex;
+	display-wrap: wrap;
+	justify-content: center;
+
+}
+
+.card {
+	background-color: white;
+	width: 228px;
+	height: 315px;
+	box-shadow: 0 0 16px rgb(0, 0, 0, 0.1);
+	padding: 24px;
+	margin: 8px	;
+
+}
+
+.card img {
+	width:100%;
+	height: 180px;
+	border-radius:4px ;
+	object-fit: cover;
+}
+
+.card h3 {
+	color: #404042;
+	font-family: Chivo;
+	font-size: 24px ;
+}
+
+.card p {
+	font-family: Overpass;
+	color: #404042;
+	font-size: 18px;
+}
+
+#footer {
+	height: 50px;
+	background-color: grey;
+	color: white;
+	padding-top: 4%;
+	text-align: center;
+	margin-top: 40px;
+	font-family: Overpass;
+}
+
+
+
+
